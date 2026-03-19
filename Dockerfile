@@ -165,4 +165,4 @@ RUN ln -sf /app/openclaw.mjs /usr/local/bin/openclaw && chmod 755 /app/openclaw.
 ENV NODE_ENV=production
 USER node
 
-CMD ["node", "openclaw.mjs", "gateway", "--allow-unconfigured", "--bind", "0.0.0.0"]
+CMD ["node", "openclaw.mjs", "gateway", "--allow-unconfigured", "--bind", "lan"]
